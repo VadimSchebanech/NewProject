@@ -4,21 +4,47 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Merkury</title>
-    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        *,
+        *::after,
+        *::before {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+    </style>
     <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
-    <main class="hero bg-center bg-no-repeat bg-cover object-fill bg-gray-800 text-white">
-        <div class="flex flex-col items-center justify-center text-center gap-10 py-20 ">
-            <div class="container mx-auto">
-                <div class="w-1/2">
-                    <h1 class="text-4xl font-bold mb-4">Grow Your business with Merkury</h1>
-                    <p class="text-lg font-bold">Your partner in crime!</p>
-                    <button class="hover:bg-blue-700 text-white py-2 px-4 w-36 rounded-full">Get started</button>
-                    <div class="hero-img w-full h-full"></div>
-                </div>
+    <!-- header -->
+    
+     <header class="bg-gray-800 text-white">
+        <div class="container mx-auto">
+            <div class="flex justify-between items-center p-10">
+                <div class="w-36"><img src="./img/Merkury logo3.png" alt="logo"></div>
+                <ul class="flex items-center text-center gap-8">
+                    <li class="hover:bg-blue-700 text-white py-2 px-4 w-24 rounded-full"><a href="#">Features</a></li>
+                    <li class="hover:bg-blue-700 text-white py-2 px-4 w-24 rounded-full"><a href="#">Pricing</a></li>
+                    <li class="hover:bg-blue-700 text-white py-2 px-4 w-24 rounded-full"><a href="#">Blog</a></li>
+                    <li class="hover:bg-blue-700 text-white py-2 px-4 w-24 rounded-full"><a href="#">Contact</a></li>
+                    <li class="hover:bg-blue-700 text-white py-2 px-4 w-24 rounded-full"><a href="#">Login</a></li>
+                </ul>
             </div>
         </div>
-    </main>
+   </header>
+
+   <!-- hero section -->
+
+    <section class="bg-[url('/img/hero-graph.png')] bg-[length:100%_80%] bg-no-repeat bg-gray-800 pb-96 text-white relative">
+        <div class="container mx-auto">
+            <main class="flex flex-col items-center justify-items-start text-center pt-8 w-1/2 mx-auto">
+                    <h1 class="text-4xl font-bold mb-4">Grow Your business with Merkury</h1>
+                    <p class="text-xl text-gray-500 font-bold mb-2">Your partner in crime!</p>
+                    <button class="font-bold text-white py-2 px-4 mb-2 w-36 rounded-full bg-blue-700 hover:bg-blue-900">Get started</button>
+                    <div class="h-auto w-2/5 absolute inset-y-48"><img src="/img/Home.png" alt=""></div>
+            </main>
+        </div>
+    </section>
 </body>
 </html>
