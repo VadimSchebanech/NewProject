@@ -20,7 +20,7 @@
     </style>
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
+<body id="home">
     
     <!-- header -->
     <header class="bg-gray-800 text-white">
@@ -39,13 +39,12 @@
    </header>
 
     <!-- hero section -->
-
     <section class="bg-[url('./img/hero-graph.png')] bg-no-repeat bg-gray-800 text-white min-h-dvh relative">
         <div class="container mx-auto">
             <div class="flex flex-col items-center justify-items-start text-center pt-20 w-1/2 mx-auto gap-10">
                 <h1 class="text-4xl font-bold">Grow Your business with Merkury</h1>
                 <p class="text-xl text-gray-500 font-bold">Your partner in crime!</p>
-                <button class="font-bold text-white w-36 h-12 rounded-full bg-blue-700 hover:bg-blue-900">Get started</button>
+                <button class="font-bold text-white w-36 h-12 rounded-full bg-blue-700 shadow-2xl shadow-sky-800 hover:bg-blue-900">Get started</button>
                 <div class="absolute inset-y-96"><img class="shadow-xl shadow-sky-800" src="./img/Home.png" alt=""></div>
             </div>
         </div>
@@ -53,7 +52,6 @@
    
 
     <!-- icon features -->
-
     <section class="bg-wthite-800 text-black mt-48 " id="features">
         <div class="container mx-auto">
             <div class="flex flex-wrap items-center justify-around text-center py-20 gap-10">
@@ -61,19 +59,19 @@
                     <img class="h-24" src="./img/manage.png" alt="">
                     <h1 class="">Manage Your Workflow</h1>
                     <p class="text-gray-500">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis, temporibus. Perspiciatis aliquid obcaecati maiores, laudantium veritatis commodi sit laboriosam modi, minima alias pariatur autem aspernatur libero ut quia reprehenderit quos?</p>
-                    <button class="text-black w-44 h-10 rounded-full bg-blue-700 hover:bg-blue-900 hover:text-white">See more</button>
+                    <button class="shadow-2xl shadow-sky-800 text-black w-44 h-10 rounded-full bg-blue-700 hover:bg-blue-900 hover:text-white">See more</button>
                 </div>
                 <div class="flex flex-col items-center justify-items-start text-center gap-10 w-96">
                     <img class="h-24" src="./img/analytics.png" alt="">
                     <h1 class="">Analytics & Insights</h1>
                     <p class="text-gray-500">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis, temporibus. Perspiciatis aliquid obcaecati maiores, laudantium veritatis commodi sit laboriosam modi, minima alias pariatur autem aspernatur libero ut quia reprehenderit quos?</p>
-                    <button class="text-black w-44 h-10 rounded-full bg-blue-700 hover:bg-blue-900 hover:text-white">See more</button>
+                    <button class="shadow-2xl shadow-sky-800 text-black w-44 h-10 rounded-full bg-blue-700 hover:bg-blue-900 hover:text-white">See more</button>
                 </div>
                 <div class="flex flex-col items-center justify-items-start text-center gap-10 w-96">
                     <img class="h-24" src="./img/organize.png" alt="">
                     <h1 class="">Organize Your Deadlines</h1>
                     <p class="text-gray-500">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis, temporibus. Perspiciatis aliquid obcaecati maiores, laudantium veritatis commodi sit laboriosam modi, minima alias pariatur autem aspernatur libero ut quia reprehenderit quos?</p>
-                    <button class="text-black w-44 h-10 rounded-full bg-blue-700 hover:bg-blue-900 hover:text-white">See more</button>
+                    <button class="shadow-2xl shadow-sky-800 text-black w-44 h-10 rounded-full bg-blue-700 hover:bg-blue-900 hover:text-white">See more</button>
                 </div>
             </div>
         </div>
@@ -100,7 +98,6 @@
 
 
     <!-- drop section -->
-
     <section class="drag-drop bg-[url('./img/bg-drag-drop.png')] bg-cover bg-no-repeat bg-center object-cover bg-gray-800">
         <div class="container mx-auto px-6 py-12">
             <div class="flex flex-col md:flex-row items-center justify-between">
@@ -197,7 +194,6 @@
     </section>
 
     <!-- template section -->
-
     <section class="powerfull-psd bg-gray-100 flex items-center justify-center min-h-screen">
         <div class="text-center w-full container">
             
@@ -242,7 +238,6 @@
     </section>
 
     <!-- pricing section -->
-
     <section class="check-our-pricing bg-white" id="pricing">
         <div class="text-center p-10">
             <h1 class="text-4xl font-bold mb-8">Check our pricing!</h1>
@@ -311,13 +306,12 @@
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                 <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
             </div>
-            <button class="mt-8 bg-blue-700 hover:bg-blue-900 text-white px-6 py-3 rounded-3xl text-lg font-semibold w-52">Join now!</button>
+            <button class="mt-8 bg-blue-700 hover:bg-blue-900 text-white px-6 py-3 rounded-3xl text-lg font-semibold w-52 shadow-2xl shadow-sky-800">Join now!</button>
         </div>
     </section>
+
     <!-- *************  contact************************* -->
-   
-        
-    <section class="flex items-center justify-center h-screen bg-gray-800 relative">
+    <section class="flex items-center justify-center h-screen bg-gray-800 relative" id="contact">
 
         <div class="w-full max-w-lg bg-white p-8 rounded-lg shadow-lg">
             <h2 class="text-3xl font-bold mb-4">Contact Us</h2>
@@ -346,10 +340,8 @@
         </div>
         
     </section>
-    <!-- **************** end contact ********************************-->
-    
 
-    <!-- -----------footer added------------------ -->
+    <!-- -----------footer ------------------ -->
     <footer class="bg-gray-800 text-white py-4">
         <div class="container flex justify-between items-center h-20 text-zinc-500 mx-auto text-center">
             <p>© 2024 Group 5 All Right Reserved</p>
@@ -365,5 +357,6 @@
             </nav>
         </div>
     </footer>
+    <a class="" href="#home"><i class="fixed size-18 rounded-full shadow-2xl shadow-sky-800 text-7xl text-blue-700 bottom-20 right-20 z-10 hover:scale-150 fa-solid fa-circle-up"></i></a>
 </body>
 </html>
